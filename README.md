@@ -1,30 +1,9 @@
-#ISIS1225 - Estructura de un proyecto
+Datos Integrantes:
+ José Nicolás Cárdenas - j.cardenast - 201922006
+ Andrés Leonardo Beltrán - al.beltran - 202014143
 
-Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
-
-Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
-
-La estructura tiene los siguiente directorios y archivos:
-
--App
-
-Este directorio se utiliza para los archivos python desarrollados para responder a los retos del curso. Acá se pueden tener todos los archivos python que se necesiten
-
--Data
-Este directorio contiene los datos/archivos de prueba para cada uno de los retos
-
--Docs
-Este directorio tiene documentos anexos al proyecto donde se explican decisiones de diseño, análisis de algoritmos y en general información asociada al código desarrollado por cada grupo
-
--DiscLib
-Este directorio contiene todo el código de base que se entrega para el funcionamiento del curso.  Dentro de este directorio encuentran:
-    
-    |-- ADT:  Directorio con los Tipos Abstractos de Datos del curso
-
-    |--DataStructures: Directorio con todas las estructuras de datos y archivos auxiliares para su     correcto funcionamiento
-
-    |--Algorithms: Implementación de los algoritmos vistos en el curso (por ejemplo algoritmos de ordenamiento)
-
-    |-- Utils: Funciones auxiliares para el funcionamiento de los TADs y estructuras de datos
-
-
+Cambios realizados:
+ 1- Se añadió una tercera opción a la función printMenu, la cual hace referencia a cargar los libros etiquetados.
+ 2- En view.py, se creó una función que guarda la lista que debería retornar la función loadBooksTags perteneciente al módulo controller.py. Esta nueva función no hace nada debido a que loadBooksTags aún no está adecuadamente definida.
+ 3- Se añadió un tercer elif al condicional del Menú Principal, el cual solo imprime la cadena "Cargando información de libros etiquetados...." y hace una asignación.
+ 4- Se añadieron todos los archivos que hacían falta a la carpeta GoodReads del directorio Data.
